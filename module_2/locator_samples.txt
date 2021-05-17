@@ -1,0 +1,5 @@
+input#name
+//input[@name="userlastname"]
+input.form-control.third-email
+//input[@title="Enter your phone here"]
+//input[@class="form-control second-address"]
