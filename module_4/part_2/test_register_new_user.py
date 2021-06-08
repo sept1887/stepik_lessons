@@ -1,17 +1,18 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-def test_login():
+def test_register_new_user():
     # Data
-    main_page_link = "http://selenium1py.pythonanywhere.com/ru/"
+    main_page_link = "http://selenium1py.pythonanywhere.com/"
     user_name_value = "secrets-inside@yandex.ru"
     password_value = "Ussur692527"
-    exp_success_msg = " "
+    exp_success_msg = "Спасибо за регистрацию!"
 
     login_link_locator = "login_link"
-    user_name_locator = "id_login-username"
-    password_locator = "id_login-password"
-    submit_btn_locator = "button.btn-primary"
+    user_name_locator = "id_registration-email"
+    password_locator = "id_registration-password1"
+    password_repeat_locator = "id_registration-password2"
+    submit_btn_locator = "registration_submit"
     success_msg_locator = "alertinner.wicon"
 
     try:
@@ -26,7 +27,9 @@ def test_login():
         user_name.send_keys(user_name_value)
         password = browser.find_element(By.ID, password_locator)
         password.send_keys(password_value)
-        submit_btn = browser.find_element(By.CSS_SELECTOR, submit_btn_locator)
+        password_repeat = browser.find_element(By.ID, password_repeat_locator)
+        password_repeat.send_keys(password_value)
+        submit_btn = browser.find_element(By.NAME, submit_btn_locator)
         submit_btn.click()
 
         #Assert
@@ -37,6 +40,3 @@ def test_login():
 
     finally:
         browser.quit()
-
-
-test_login()
