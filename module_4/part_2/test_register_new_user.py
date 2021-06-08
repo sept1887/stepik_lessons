@@ -6,7 +6,7 @@ def test_login():
     main_page_link = "http://selenium1py.pythonanywhere.com/ru/"
     user_name_value = "secrets-inside@yandex.ru"
     password_value = "Ussur692527"
-    exp_success_msg = "
+    exp_success_msg = ""
 
     login_link_locator = "login_link"
     user_name_locator = "id_login-username"
