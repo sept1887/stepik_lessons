@@ -16,20 +16,16 @@ exp_add_to_cart_btn_txt = {
 
 
 def test_add_to_cart_btn_lang(browser, language):
-    try:
-        # Arrange
-        browser.get(main_page_link)
+    # Arrange
+    browser.get(main_page_link)
 
-        # Act
-        add_to_cart_btn = browser.find_element(By.CSS_SELECTOR, btn_locator)
-        page_lang = browser.find_element(By.CLASS_NAME, lang_locator).get_attribute('lang')
+    # Act
+    add_to_cart_btn = browser.find_element(By.CSS_SELECTOR, btn_locator)
+    page_lang = browser.find_element(By.CLASS_NAME, lang_locator).get_attribute('lang')
+    language = language.lower() # Выглядит как костыль, но это пришлось сделать для бритиш инглиш --language=en-GB
 
-        # Assert
-        assert page_lang == language, \
-            f'Expected page language is "{language}", but actual page language is "{page_lang}"'
-        assert add_to_cart_btn.text in exp_add_to_cart_btn_txt[language], \
-            f'Expected button text is "{exp_add_to_cart_btn_txt[language]}, but actual button text is "{add_to_cart_btn.text}"'
-
-    finally:
-        browser.quit()
-
+    # Assert
+    assert page_lang == language, \
+        f'Expected page language is "{language}", but actual page language is "{page_lang}"'
+    assert add_to_cart_btn.text in exp_add_to_cart_btn_txt[language], \
+        f'Expected button text is "{exp_add_to_cart_btn_txt[language]}, but actual button text is "{add_to_cart_btn.text}"'
