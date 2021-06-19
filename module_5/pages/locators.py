@@ -1,13 +1,28 @@
 from selenium.webdriver.common.by import By
 
 
-class MainPageLocators():
+class BasePageLocators:
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
+    BASKET_LINK = (By.XPATH, "//*[@id='default']/header/div[1]/div/div[2]/span/a")
+    USER_ICON = (By.CSS_SELECTOR, ".icon-user")
 
 
-class LoginPageLocators():
+class BasketPageLocators:
+    EMPTY_BASKET_MSG = (By.ID, "content_inner")
+    ITEM_IN_BASKET = (By.CLASS_NAME, "basket-items")
+
+
+class MainPageLocators:
+    pass
+
+
+class LoginPageLocators:
     LOGIN_FORM = (By.CSS_SELECTOR, "#login_form")
     REGISTER_FORM = (By.CSS_SELECTOR, "#register_form")
+    LOGIN_NAME = (By.NAME, "login-username")
+    LOGIN_PASSWORD = (By.NAME, "login-password")
+    LOGIN_BTN = (By.NAME, "login_submit")
 
 
 class ProductPageLocators():
@@ -16,5 +31,6 @@ class ProductPageLocators():
     BASKET_PREVIEW = (By.CLASS_NAME, "basket-mini")
     PRODUCT_NAME_IN_PRODUCT_PAGE = (By.TAG_NAME, "h1")
     PRICE_IN_PRODUCT_PAGE = (By.CLASS_NAME, "price_color")
+    SUCCESS_MSG = (By.XPATH, "//*[@id='messages']/div[1]/div")
 
 

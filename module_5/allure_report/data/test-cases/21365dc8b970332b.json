@@ -1,0 +1,118 @@
+{
+  "uid" : "21365dc8b970332b",
+  "name" : "test_guest_can_add_product_to_basket[offer1]",
+  "fullName" : "module_5.test_product_page.TestCasesForGuest#test_guest_can_add_product_to_basket",
+  "historyId" : "1815391673b52842197d8660160a0d54",
+  "time" : {
+    "start" : 1624122548608,
+    "stop" : 1624122554532,
+    "duration" : 5924
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1624122547473,
+      "stop" : 1624122548607,
+      "duration" : 1134
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "language",
+    "time" : {
+      "start" : 1624122473096,
+      "stop" : 1624122473096,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9fab4c79a7444dfa",
+      "name" : "stdout",
+      "source" : "9fab4c79a7444dfa.txt",
+      "type" : "text/plain",
+      "size" : 26
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1624122554533,
+      "stop" : 1624122556711,
+      "duration" : 2178
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "module_5"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCasesForGuest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-713IL0B"
+  }, {
+    "name" : "thread",
+    "value" : "14228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "module_5.test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "promo_offer",
+    "value" : "'offer1'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21365dc8b970332b.json",
+  "parameterValues" : [ "'offer1'" ]
+}

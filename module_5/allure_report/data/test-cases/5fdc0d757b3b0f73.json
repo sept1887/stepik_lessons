@@ -1,0 +1,107 @@
+{
+  "uid" : "5fdc0d757b3b0f73",
+  "name" : "test_message_disappeared_after_adding_product_to_basket",
+  "fullName" : "module_5.test_product_page.TestCasesForGuest#test_message_disappeared_after_adding_product_to_basket",
+  "historyId" : "09fcfc16128721f36db1adf232dbf900",
+  "time" : {
+    "start" : 1624122642680,
+    "stop" : 1624122646145,
+    "duration" : 3465
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL fixing this bug right now\n\nTypeError: module_5.pages.base_page.BasePage.is_disappeared() argument after ** must be a mapping, not tuple",
+  "statusTrace" : "self = <module_5.test_product_page.TestCasesForGuest object at 0x000001D53D0AF100>\nbrowser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"5131390eb74a72aa831fd168dab09281\")>\n\n    @pytest.mark.lesson5_step6\n    @pytest.mark.xfail(reason=\"fixing this bug right now\")\n    def test_message_disappeared_after_adding_product_to_basket(self, browser):\n        link = \"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/\"\n        product_page = ProductPage(browser, link)\n        product_page.open()\n        product_page.add_to_cart_from_product_page()\n>       product_page.success_msg_should_disappeared()\n\nmodule_5\\test_product_page.py:77: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <module_5.pages.product_page.ProductPage object at 0x000001D53D0539D0>\n\n    def success_msg_should_disappeared(self):\n>       assert self.is_disappeared(**ProductPageLocators.SUCCESS_MSG), \\\n            \"Success message should disappeared, but it's not\"\nE       TypeError: module_5.pages.base_page.BasePage.is_disappeared() argument after ** must be a mapping, not tuple\n\nmodule_5\\pages\\product_page.py:33: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1624122641451,
+      "stop" : 1624122642679,
+      "duration" : 1228
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "language",
+    "time" : {
+      "start" : 1624122473096,
+      "stop" : 1624122473096,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1624122646152,
+      "stop" : 1624122648296,
+      "duration" : 2144
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail(reason='fixing this bug right now')"
+  }, {
+    "name" : "tag",
+    "value" : "lesson5_step6"
+  }, {
+    "name" : "parentSuite",
+    "value" : "module_5"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCasesForGuest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-713IL0B"
+  }, {
+    "name" : "thread",
+    "value" : "14228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "module_5.test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail(reason='fixing this bug right now')", "lesson5_step6" ]
+  },
+  "source" : "5fdc0d757b3b0f73.json",
+  "parameterValues" : [ ]
+}

@@ -25,6 +25,18 @@ class ProductPage(BasePage):
         exp_price_in_cart = self.browser.find_element(*ProductPageLocators.PRICE_IN_PRODUCT_PAGE).text
         assert exp_price_in_cart in act_price_in_cart, "Wrong price"
 
+    def should_not_be_success_message(self):
+        assert self.is_not_element_present(*ProductPageLocators.SUCCESS_MSG), \
+            "Success message is presented, but should not be"
+
+    def success_msg_should_disappeared(self):
+        assert self.is_disappeared(**ProductPageLocators.SUCCESS_MSG), \
+            "Success message should disappeared, but it's not"
+
+
+
+
+
 
 
 

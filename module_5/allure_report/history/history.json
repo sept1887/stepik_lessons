@@ -1,0 +1,424 @@
+{
+  "5ca073e713f901829ee8fb81b081b434" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d7f8e29b782c13f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122898867,
+        "stop" : 1624122905582,
+        "duration" : 6715
+      }
+    } ]
+  },
+  "b4f320b65a73bf4968f3d809aa444c9d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1aa495cf0240c7e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122943164,
+        "stop" : 1624122947167,
+        "duration" : 4003
+      }
+    } ]
+  },
+  "21b6487f087a6055f11d365701bf1de1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d10373db7d6f5a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122917999,
+        "stop" : 1624122931038,
+        "duration" : 13039
+      }
+    } ]
+  },
+  "198b82cbafcc109eec8a9c4a5e3e8032" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1c53588d1619c2ce",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: Expected product name is \"Coders at Work\", but actual product name is \"Coders at Work book\"",
+      "time" : {
+        "start" : 1624122880512,
+        "stop" : 1624122886928,
+        "duration" : 6416
+      }
+    } ]
+  },
+  "addde31e64287b6970e71a8c657f47a8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c3d5f94602df86e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122955626,
+        "stop" : 1624122970632,
+        "duration" : 15006
+      }
+    } ]
+  },
+  "271244f740bfa33a3675b301acb4ed52" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a3aa127dde45adf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122757869,
+        "stop" : 1624122761866,
+        "duration" : 3997
+      }
+    } ]
+  },
+  "cbb9b2e76cfb37e61cee523c03409f21" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26ef1a40d48aa978",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122770368,
+        "stop" : 1624122783141,
+        "duration" : 12773
+      }
+    } ]
+  },
+  "f7e9c777ef0398d03d977af376091f43" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d70e66fa8e703243",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL fixing this bug right now\n\nAssertionError: Success message is presented, but should not be",
+      "time" : {
+        "start" : 1624122908930,
+        "stop" : 1624122914670,
+        "duration" : 5740
+      }
+    } ]
+  },
+  "7067a9e3c7ddc2d433d88d7767a8449b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fb30cc90515bed8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122813618,
+        "stop" : 1624122817600,
+        "duration" : 3982
+      }
+    } ]
+  },
+  "111486561365432e37c2c9a57add240c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8905e1581089f7a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122950502,
+        "stop" : 1624122952234,
+        "duration" : 1732
+      }
+    } ]
+  },
+  "c6ecee942f6ae0ed9e8a94238683c86b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f92aed86b0e8f471",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122844229,
+        "stop" : 1624122851454,
+        "duration" : 7225
+      }
+    } ]
+  },
+  "aeb7c45cbcddc269e844c6ad4a0fb0bd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "39925be6bacc2706",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122792790,
+        "stop" : 1624122804534,
+        "duration" : 11744
+      }
+    } ]
+  },
+  "79e3b035e32656db0a4918cf491b8d92" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d4767ecdbf5b0792",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122765167,
+        "stop" : 1624122766842,
+        "duration" : 1675
+      }
+    } ]
+  },
+  "1d51ec7412206517ffbd90fcbf9bcb3c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de6b396dc60cc87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122854807,
+        "stop" : 1624122860231,
+        "duration" : 5424
+      }
+    } ]
+  },
+  "892a08c11a2618ac24b1138818e6d082" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1b8c2766234ff5eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122890376,
+        "stop" : 1624122895536,
+        "duration" : 5160
+      }
+    } ]
+  },
+  "1815391673b52842197d8660160a0d54" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "98796ca7dbd060e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122828424,
+        "stop" : 1624122832947,
+        "duration" : 4523
+      }
+    } ]
+  },
+  "6086e71ac0315569f77de72e1c7177e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1eeac567f16e9e1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122863611,
+        "stop" : 1624122868507,
+        "duration" : 4896
+      }
+    } ]
+  },
+  "81a675720016197bac07eb11234ce04e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c53400bd1d97364a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122836242,
+        "stop" : 1624122840907,
+        "duration" : 4665
+      }
+    } ]
+  },
+  "bd5e1d7ff9ec797941589ddd04bf9d8d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56bf6e2a1f2ed2fc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-add-to-basket7\"}\n  (Session info: chrome=91.0.4472.106)",
+      "time" : {
+        "start" : 1624122678388,
+        "stop" : 1624122682154,
+        "duration" : 3766
+      }
+    } ]
+  },
+  "e00d0018f22149ecee2b078b851eee5f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56fe916f6f09e3bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122871819,
+        "stop" : 1624122877199,
+        "duration" : 5380
+      }
+    } ]
+  },
+  "63058f6ed607caf4f04d686f4ae566a1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1df2bd183c629ef9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122820936,
+        "stop" : 1624122825126,
+        "duration" : 4190
+      }
+    } ]
+  },
+  "09fcfc16128721f36db1adf232dbf900" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9eeb96f0c801d6ea",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL fixing this bug right now\n\nTypeError: module_5.pages.base_page.BasePage.is_disappeared() argument after ** must be a mapping, not tuple",
+      "time" : {
+        "start" : 1624122934361,
+        "stop" : 1624122939849,
+        "duration" : 5488
+      }
+    } ]
+  }
+}

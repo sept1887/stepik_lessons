@@ -1,0 +1,136 @@
+{
+  "uid" : "1c53588d1619c2ce",
+  "name" : "test_guest_can_add_product_to_basket[offer7]",
+  "fullName" : "module_5.test_product_page.TestCasesForGuest#test_guest_can_add_product_to_basket",
+  "historyId" : "198b82cbafcc109eec8a9c4a5e3e8032",
+  "time" : {
+    "start" : 1624122880512,
+    "stop" : 1624122886928,
+    "duration" : 6416
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nAssertionError: Expected product name is \"Coders at Work\", but actual product name is \"Coders at Work book\"",
+  "statusTrace" : "self = <module_5.test_product_page.TestCasesForGuest object at 0x0000019C266A27F0>\nbrowser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"df5e082498769a071135e262c20a0cef\")>, promo_offer = 'offer7'\n\n    @pytest.mark.parametrize('promo_offer', [\"offer0\", \"offer1\", \"offer2\", \"offer3\", \"offer4\", \"offer5\", \"offer6\",\n                                             pytest.param(\"offer7\", marks=pytest.mark.xfail), \"offer8\", \"offer9\"])\n    def test_guest_can_add_product_to_basket(self, browser, promo_offer):\n        link = f\"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo={promo_offer}\"\n        product_page = ProductPage(browser, link)\n        product_page.open()\n        product_page.test_guest_can_add_product_to_basket()\n        product_page.solve_quiz_and_get_code()\n>       product_page.check_product_name_in_cart()\n\nmodule_5\\test_product_page.py:51: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <module_5.pages.product_page.ProductPage object at 0x0000019C26691E20>\n\n    def check_product_name_in_cart(self):\n        act_product_name = self.browser.find_element(*ProductPageLocators.PRODUCT_NAME_IN_CART).text\n        exp_product_name = self.browser.find_element(*ProductPageLocators.PRODUCT_NAME_IN_PRODUCT_PAGE).text\n>       assert exp_product_name == act_product_name, \\\n            f'Expected product name is \"{exp_product_name}\", but actual product name is \"{act_product_name}\"'\nE       AssertionError: Expected product name is \"Coders at Work\", but actual product name is \"Coders at Work book\"\n\nmodule_5\\pages\\product_page.py:20: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1624122879352,
+      "stop" : 1624122880512,
+      "duration" : 1160
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "language",
+    "time" : {
+      "start" : 1624122756732,
+      "stop" : 1624122756732,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\nAssertionError: Expected product name is \"Coders at Work\", but actual product name is \"Coders at Work book\"",
+    "statusTrace" : "self = <module_5.test_product_page.TestCasesForGuest object at 0x0000019C266A27F0>\nbrowser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"df5e082498769a071135e262c20a0cef\")>, promo_offer = 'offer7'\n\n    @pytest.mark.parametrize('promo_offer', [\"offer0\", \"offer1\", \"offer2\", \"offer3\", \"offer4\", \"offer5\", \"offer6\",\n                                             pytest.param(\"offer7\", marks=pytest.mark.xfail), \"offer8\", \"offer9\"])\n    def test_guest_can_add_product_to_basket(self, browser, promo_offer):\n        link = f\"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo={promo_offer}\"\n        product_page = ProductPage(browser, link)\n        product_page.open()\n        product_page.test_guest_can_add_product_to_basket()\n        product_page.solve_quiz_and_get_code()\n>       product_page.check_product_name_in_cart()\n\nmodule_5\\test_product_page.py:51: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <module_5.pages.product_page.ProductPage object at 0x0000019C26691E20>\n\n    def check_product_name_in_cart(self):\n        act_product_name = self.browser.find_element(*ProductPageLocators.PRODUCT_NAME_IN_CART).text\n        exp_product_name = self.browser.find_element(*ProductPageLocators.PRODUCT_NAME_IN_PRODUCT_PAGE).text\n>       assert exp_product_name == act_product_name, \\\n            f'Expected product name is \"{exp_product_name}\", but actual product name is \"{act_product_name}\"'\nE       AssertionError: Expected product name is \"Coders at Work\", but actual product name is \"Coders at Work book\"\n\nmodule_5\\pages\\product_page.py:20: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9fa014d106aad11f",
+      "name" : "stdout",
+      "source" : "9fa014d106aad11f.txt",
+      "type" : "text/plain",
+      "size" : 26
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1624122887019,
+      "stop" : 1624122889213,
+      "duration" : 2194
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "module_5"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCasesForGuest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-713IL0B"
+  }, {
+    "name" : "thread",
+    "value" : "14768-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "module_5.test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "promo_offer",
+    "value" : "'offer7'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5274f0361e872ab5",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: Expected product name is \"Coders at Work\", but actual product name is \"Coders at Work book\"",
+      "time" : {
+        "start" : 1624122596306,
+        "stop" : 1624122600195,
+        "duration" : 3889
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail" ]
+  },
+  "source" : "1c53588d1619c2ce.json",
+  "parameterValues" : [ "'offer7'" ]
+}

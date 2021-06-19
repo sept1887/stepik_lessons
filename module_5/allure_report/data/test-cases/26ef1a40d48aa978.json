@@ -1,0 +1,112 @@
+{
+  "uid" : "26ef1a40d48aa978",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page",
+  "fullName" : "module_5.test_main_page.TestBasketFromMainPage#test_guest_cant_see_product_in_basket_opened_from_main_page",
+  "historyId" : "cbb9b2e76cfb37e61cee523c03409f21",
+  "time" : {
+    "start" : 1624122770368,
+    "stop" : 1624122783141,
+    "duration" : 12773
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1624122769185,
+      "stop" : 1624122770367,
+      "duration" : 1182
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "language",
+    "time" : {
+      "start" : 1624122756732,
+      "stop" : 1624122756732,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1624122783142,
+      "stop" : 1624122785319,
+      "duration" : 2177
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "basket_guest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "module_5"
+  }, {
+    "name" : "suite",
+    "value" : "test_main_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBasketFromMainPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-713IL0B"
+  }, {
+    "name" : "thread",
+    "value" : "14768-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "module_5.test_main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "330d2a5f8647bf6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624122487091,
+        "stop" : 1624122499930,
+        "duration" : 12839
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "basket_guest" ]
+  },
+  "source" : "26ef1a40d48aa978.json",
+  "parameterValues" : [ ]
+}
