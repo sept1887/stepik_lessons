@@ -4,14 +4,13 @@ from .pages.login_page import LoginPage
 from .pages.basket_page import BasketPage
 
 
-link = "http://selenium1py.pythonanywhere.com/"
-
-
 @pytest.mark.login_guest
 class TestLoginFromMainPage:
+    link = "http://selenium1py.pythonanywhere.com/"
+
     def test_guest_can_go_to_login_page(self, browser):
         # Arrange
-        main_page = MainPage(browser, link)
+        main_page = MainPage(browser, self.link)
         main_page.open()
         # Act
         main_page.go_to_login_page()
@@ -21,7 +20,7 @@ class TestLoginFromMainPage:
 
     def test_guest_should_see_login_link(self, browser):
         # Arrange
-        main_page = MainPage(browser, link)
+        main_page = MainPage(browser, self.link)
         # Act
         main_page.open()
         # Assert
@@ -30,9 +29,11 @@ class TestLoginFromMainPage:
 
 @pytest.mark.basket_guest
 class TestBasketFromMainPage:
+    link = "http://selenium1py.pythonanywhere.com/"
+
     def test_guest_cant_see_product_in_basket_opened_from_main_page(self, browser):
         # Arrange
-        main_page = MainPage(browser, link)
+        main_page = MainPage(browser, self.link)
         main_page.open()
         # Act
         main_page.go_to_basket_page()
