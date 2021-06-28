@@ -23,4 +23,3 @@ class TestMainPage:
         main_page.open()
         # Assert
         main_page.should_be_welcome_text()
-
