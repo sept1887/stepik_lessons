@@ -3,6 +3,7 @@ from .pages.main_page import MainPage
 from .pages.category_page import CategoryPage
 
 
+@pytest.mark.personal
 class TestCategoryPage:
     link = "http://selenium1py.pythonanywhere.com/en-gb/catalogue/category/books_2/"
 

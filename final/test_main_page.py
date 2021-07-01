@@ -2,6 +2,7 @@ import pytest
 from .pages.main_page import MainPage
 
 
+@pytest.mark.personal
 class TestMainPage:
     link = "http://selenium1py.pythonanywhere.com/en-gb/"
 
